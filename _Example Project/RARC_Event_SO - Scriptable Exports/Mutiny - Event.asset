@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Mutiny - Event
+  m_EditorClassIdentifier: 
+  ScriptableName: Mutiny - Event
+  eventTitle: Mutiny!
+  eventID: Mutiny - Event
+  eventIcon: {fileID: 0}
+  eventDescription: Some of the crew has banded together to revolt against you. They are tired of the way you ration food and handle the rest of the ship’s affairs. They think they can do far better than you can. There is talk that this little “rebellion” might get violent.
+  eventOption1_Choice: Give into the Mutineers demands
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: Send their leader out the airlock and threaten to do the same to anyone else who “revolts” against you.
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: Try to persuade the mutineers to stop.
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Aliens Big Dorthy - Outcome Event 2
+  m_EditorClassIdentifier: 
+  ScriptableName: Aliens Big Dorthy - Outcome Event 2
+  eventTitle: Do Aliens Exist? (Big Dorothy)
+  eventID: Aliens Big Dorthy - Outcome Event 2
+  eventIcon: {fileID: 0}
+  eventDescription: At the next meal time, you give Dorothy only a fraction of what she would normally consume.  Dorothy gets visibly upset at the lack of food, her big eyes reminding you of a sad puppy.  The crew sympathize with her and demand that you give her more food so she is happy again.  To not look like a complete asshole, you begrudgingly give her more food…. You think to yourself that next time, maybe you’ll just cut her meals down little by little and hope she doesn’t notice.
+  eventOption1_Choice: Okay.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: 
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

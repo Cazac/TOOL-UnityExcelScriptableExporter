@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Crack In The Surface - Event
+  m_EditorClassIdentifier: 
+  ScriptableName: Crack In The Surface - Event
+  eventTitle: A Crack in the Surface
+  eventID: Crack In The Surface - Event
+  eventIcon: {fileID: 0}
+  eventDescription: While exploring this planet, an intense earthquake begins and cracks begin forming in the terrain.  Most of your crew get to safety, but one explorer falls down into a hole.  It’s dangerous to rescue them, but it could be done.
+  eventOption1_Choice: Send a rescue team down!  No one gets left behind!
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: There’s nothing we can do.
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

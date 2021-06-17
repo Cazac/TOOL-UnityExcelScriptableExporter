@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Zoom - Outcome Event 1
+  m_EditorClassIdentifier: 
+  ScriptableName: Zoom - Outcome Event 1
+  eventTitle: Zoom!
+  eventID: Zoom - Outcome Event 1
+  eventIcon: {fileID: 0}
+  eventDescription: Your crew member tosses some strange fluids into the fuel tank. There is a strange noise that comes from the engine for a moment and then it passes. When you bring your ship to the next destination, your ship has never moved so fast before! However, whatever your crew member did, completely ate up your fuel stores. It doesn’t seem like this experiment is very cost effective. 
+  eventOption1_Choice: Okay.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: 
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

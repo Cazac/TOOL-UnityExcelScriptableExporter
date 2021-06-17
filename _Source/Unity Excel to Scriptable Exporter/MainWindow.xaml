@@ -1,0 +1,88 @@
+﻿<Window x:Class="Unity_Excel_to_Scriptable_Exporter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unity_Excel_to_Scriptable_Exporter"
+        mc:Ignorable="d"
+        Title="Unity Excel To Scriptables Converter" Height="550" Width="990" ResizeMode="CanMinimize" BorderBrush="White" Icon="Exporter Icon.ico">
+    <Grid Background="#FF1D1D1D">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="833*"/>
+        </Grid.ColumnDefinitions>
+        <!-- Borders -->
+
+
+        <Button x:Name="FilterMatches_Button" Content="Filter Matches" Margin="265,392,0,0" Click="FilterMatches_Button_Click" Height="36" VerticalAlignment="Top" Grid.Column="1" HorizontalAlignment="Left" Width="310" Background="#FF85DA98" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" FontSize="14">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <TextBox x:Name="Textbox_SelectScriptFile" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="27" Margin="10,15,0,0" TextWrapping="Wrap" Text="Select a File" VerticalAlignment="Top" Width="310" IsEnabled="False" Background="#FFABADB3" BorderBrush="Black" Grid.ColumnSpan="2" FontStyle="Italic"/>
+        <TextBox x:Name="Textbox_SelectExcelFile" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="27" Margin="265,15,0,0" Text="Select a File" VerticalAlignment="Top" Width="310" IsEnabled="False" Background="#FFABADB3" BorderBrush="Black" Grid.Column="1" FontStyle="Italic"/>
+        <TextBox x:Name="Textbox_SelectOutputLocation" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="27" Margin="585,15,0,0" TextWrapping="Wrap" Text="Output location" VerticalAlignment="Top" Width="310" IsEnabled="False" Background="#FFABADB3" BorderBrush="Black" FontStyle="Italic" Grid.Column="1"/>
+
+
+
+
+
+        <Button x:Name="SelectOutputLocation_Button" Content="Select Output Folder"  HorizontalAlignment="Left" Margin="585,42,0,0" VerticalAlignment="Top" Height="30" Click="SelectOutputLocation_Button_Click" Width="310" Grid.Column="1" FontWeight="Bold" Background="White" BorderBrush="#FF595959">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="SelectScript_Button" Content="Select Input Script " HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="310" Height="30" Click="SelectScript_Button_Click" Grid.ColumnSpan="2" FontWeight="Bold" Background="White" BorderBrush="#FF595959">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="SelectExcel_Button" Content="Select Input Excel" HorizontalAlignment="Left" Margin="265,42,0,0" VerticalAlignment="Top" Width="310" Height="30" Click="SelectExcel_Button_Click" Grid.Column="1" FontWeight="Bold" Background="White" BorderBrush="#FF595959">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="Help_Button" Content="Help" HorizontalAlignment="Left" Margin="585,392,0,0" Width="310" Click="Help_Button_Click" Background="#FFB92A2A" BorderThickness="1" BorderBrush="Black" FontWeight="Bold" Grid.Column="1" FontSize="14" Height="36" VerticalAlignment="Top">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+
+
+        <!-- Script Variable Boxes -->
+        <RichTextBox x:Name="ScriptVariables_Textbox" HorizontalAlignment="Left" Height="268" Margin="10,115,0,0" VerticalAlignment="Top" Width="310" Block.LineHeight="6" ScrollViewer.CanContentScroll="True" FontSize="10" Background="#FF919191" BorderThickness="2" BorderBrush="Black" Grid.ColumnSpan="2" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+
+        <!-- Excel Variable Boxes -->
+        <Label x:Name="FoundExcelVariables_TitleLabel" Content="Found Excel Variables" HorizontalAlignment="Left" Margin="265,87,0,0" VerticalAlignment="Top" Width="310" HorizontalContentAlignment="Center" BorderBrush="Black" Background="#FF85DA98" BorderThickness="2" Grid.Column="1"/>
+        <RichTextBox x:Name="ExcelVariables_Textbox" HorizontalAlignment="Left" Height="268" Margin="265,115,0,0" VerticalAlignment="Top" Width="310" Block.LineHeight="6" ScrollViewer.CanContentScroll="True" FontSize="10" Background="#FF919191" BorderThickness="2" BorderBrush="Black" Grid.Column="1" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+
+        <!-- Excel Data Boxes -->
+        <Label x:Name="FoundExcelData_TitleLabel" Content="Found Excel Data" HorizontalAlignment="Left" Margin="585,87,0,0" VerticalAlignment="Top" Width="310" Background="#FF85DA98" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" Grid.Column="1"/>
+        <RichTextBox x:Name="ExcelData_Textbox" HorizontalAlignment="Left" Height="268" Margin="585,115,0,0" VerticalAlignment="Top" Width="310" Block.LineHeight="6" ScrollViewer.CanContentScroll="True" FontSize="10" CaretBrush="Black" BorderThickness="2" Background="#FF919191" BorderBrush="Black" Grid.Column="1" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+
+        <!-- Bottom Buttons -->
+        <Button x:Name="GenerateExcelTemplate_Button" Content="Generate Excel Template" Margin="10,392,0,0" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="36" Grid.ColumnSpan="2" Width="310" Click="GenerateExcelTemplate_Button_Click" Background="#FF4FCAD6" BorderBrush="Black" BorderThickness="1" FontWeight="Bold" FontSize="14">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="ConvertToScriptable_Button" Content="Convert Excel To Scriptable" HorizontalAlignment="Left"  Margin="265,444,0,0" FontSize="20" Click="ConvertToScriptable_Button_Click" Grid.Column="1" Width="630" Background="#FF85DA98" BorderThickness="1" BorderBrush="#FF595959" FontWeight="Bold" Height="57" VerticalAlignment="Top">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+
+        </Button>
+        <Label x:Name="FoundScriptVariables_TitleLabel" Content="Found Script Variables" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Width="310" HorizontalContentAlignment="Center" Background="#FF4FCAD6" BorderThickness="2" BorderBrush="Black" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="InputGUID_Textbox" HorizontalAlignment="Left" Margin="10,474,0,0" TextWrapping="Wrap" Width="310" Background="White" BorderBrush="Black" Grid.ColumnSpan="2" Height="27" VerticalAlignment="Top" TextChanged="InputGUID_Textbox_TextChanged">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Label x:Name="InputGUID_TitleLabel" Content="Script Meta File GUID (ex. 237fa04ca3c139b4dab0d932964492be)" HorizontalAlignment="Left" Margin="10,444,0,0" Width="310" BorderThickness="2" BorderBrush="Black" Grid.ColumnSpan="2" FontSize="10" Background="#FF4FCAD6" Height="30" VerticalAlignment="Top">
+        </Label>
+
+
+    </Grid>
+</Window>

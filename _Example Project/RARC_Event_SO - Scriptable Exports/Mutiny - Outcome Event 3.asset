@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Mutiny - Outcome Event 3
+  m_EditorClassIdentifier: 
+  ScriptableName: Mutiny - Outcome Event 3
+  eventTitle: Mutiny!
+  eventID: Mutiny - Outcome Event 3
+  eventIcon: {fileID: 0}
+  eventDescription: The mutineers manage to cause some minor damage to the ship before they have a chance to listen to your long and passionate speech. This is what you were trained to do. The crew isn’t fully happy, but they understand that they are the last hope for Earth. If they give up now, everything they have sacrificed and worked hard for would be for nothing. Your time as Captain hasn’t come to an end just yet… 
+  eventOption1_Choice: Okay.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: 
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Friendly Greeting - Event
+  m_EditorClassIdentifier: 
+  ScriptableName: Friendly Greeting - Event
+  eventTitle: A Friendly Greeting!
+  eventID: Friendly Greeting - Event
+  eventIcon: {fileID: 0}
+  eventDescription: A ship pulls up alongside The Prometheus and opens up comms with your ship. You are bewildered by the sudden presence of another ship out here, but this may be a chance to communicate with them! You wait in suspense for them to speak first after a moment you hear a low pitched voice murmur “Hi…”.
+  eventOption1_Choice: Respond verbally by saying “Hi”.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: Respond verbally by saying “THIS IS THE CAPTAIN OF THE PROMETHEUS ENGAGING WITH THE UNKNOWN VESAL, STATE YOUR BUSINESS”.
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: Respond with guns.
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

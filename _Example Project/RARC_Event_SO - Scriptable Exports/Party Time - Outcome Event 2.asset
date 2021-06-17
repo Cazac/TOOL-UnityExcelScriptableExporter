@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Party Time - Outcome Event 2
+  m_EditorClassIdentifier: 
+  ScriptableName: Party Time - Outcome Event 2
+  eventTitle: Party Time!
+  eventID: Party Time - Outcome Event 2
+  eventIcon: {fileID: 0}
+  eventDescription: The crew is very displeased by your harsh response. The food is safe, however, some of the crew throw a tantrum and wreck some of the ship. They smear excrement on the walls, rip down some of the posters and some of the crew refuse to make their beds. They may be mad now, but they’ll thank you later. 
+  eventOption1_Choice: Okay.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: 
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

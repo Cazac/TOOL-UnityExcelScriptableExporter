@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Big Rock - Event
+  m_EditorClassIdentifier: 
+  ScriptableName: Big Rock - Event
+  eventTitle: That’s a Big Rock!
+  eventID: Big Rock - Event
+  eventIcon: {fileID: 0}
+  eventDescription: You are in the navigation room, planning the ships next course of action. Before the scanners can alert you, you see what seems to be a big rock heading in the direction of the ship. The scanners go ballistic. It looks as if it is going to hit the ship. It could cause some major damage.
+  eventOption1_Choice: Set a course for the ship that would bring it out of range of the rock.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: Send some bots out to stop the rock from hitting the ship.
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: Order the crew to destroy the rock with a laser beam.
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Creatures On The Ground - Event
+  m_EditorClassIdentifier: 
+  ScriptableName: Creatures On The Ground - Event
+  eventTitle: Creatures on the Ground!
+  eventID: Creatures On The Ground - Event
+  eventIcon: {fileID: 0}
+  eventDescription: You always scan for lifeforms of the planets you search, and don’t venture to ones that contain sentient life.  However, this latest planet you’ve visited contains some large creatures, despite your sensors claiming otherwise.  They don’t seem too bothered by your explorers on the ground.  What are you going to do?
+  eventOption1_Choice: Hunt them - we can always use more food.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: Leave the creatures be.
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

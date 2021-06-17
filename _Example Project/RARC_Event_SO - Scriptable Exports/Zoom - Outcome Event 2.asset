@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Zoom - Outcome Event 2
+  m_EditorClassIdentifier: 
+  ScriptableName: Zoom - Outcome Event 2
+  eventTitle: Zoom!
+  eventID: Zoom - Outcome Event 2
+  eventIcon: {fileID: 0}
+  eventDescription: Your crew member spends several hours in the lab, carefully researching his idea. It turns out his idea would definitely make the ship move faster, however, it would have consumed way too much fuel in order to do so. The extra speed would have been nice, but the fuel would be far too costly. 
+  eventOption1_Choice: Okay.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: 
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

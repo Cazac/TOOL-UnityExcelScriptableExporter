@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Freedom - Outcome Event 2
+  m_EditorClassIdentifier: 
+  ScriptableName: Freedom - Outcome Event 2
+  eventTitle: Freedom!
+  eventID: Freedom - Outcome Event 2
+  eventIcon: {fileID: 0}
+  eventDescription: There is a dangerous look in their eyes as you try to talk them down. You keep repeating that they will die if they go out there and almost as if they never heard you, they keep repeating that they need that "breath of fresh air". At some point they abruptly concede the point and walk away as if nothing ever happened. Things are safe for now, but you note the lack of metal health around here.
+  eventOption1_Choice: Okay.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: 
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 

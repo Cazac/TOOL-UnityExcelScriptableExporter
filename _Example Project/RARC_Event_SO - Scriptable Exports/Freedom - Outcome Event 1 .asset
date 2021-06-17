@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0785aef77b8c7b04da903a236d21657e, type: 3}
+  m_Name: Freedom - Outcome Event 1 
+  m_EditorClassIdentifier: 
+  ScriptableName: Freedom - Outcome Event 1 
+  eventTitle: Freedom!
+  eventID: Freedom - Outcome Event 1 
+  eventIcon: {fileID: 0}
+  eventDescription: You are not running a prison around here, people want a  little space-walk to relax. You agree and go to slow down the ship for crew to have a chance to stop work. As soon as you turn your back the crew member throws themelves out the arilock with no suit. Watching in horror as they float away you can't help but to think you saw a smile on their face in their last moments.
+  eventOption1_Choice: Okay.
+  eventOption1_Outcome: {fileID: 0}
+  eventOption1_Requirement: {fileID: 0}
+  eventOption2_Choice: 
+  eventOption2_Outcome: {fileID: 0}
+  eventOption2_Requirement: {fileID: 0}
+  eventOption3_Choice: 
+  eventOption3_Outcome: {fileID: 0}
+  eventOption3_Requirement: {fileID: 0}
+  eventCanComeBackLater: 
